@@ -16,8 +16,8 @@ aws ecr get-login-password --profile kazuhisa_fukuda@admin | docker login --user
 docker push 609014044253.dkr.ecr.ap-northeast-1.amazonaws.com/hello-express:latest
 ```
 
-Then, set service manually.(Don't worry. It's so easy!)
-https://ap-northeast-1.console.aws.amazon.com/apprunner/home?region=ap-northeast-1#/services
+Then, set service manually.(Don't worry. It's so easy!)  
+[AWS Management Console - App Runner](https://ap-northeast-1.console.aws.amazon.com/apprunner/home?region=ap-northeast-1#/services)
 
 ## Note
 Need to set architecture to `x86_64`.
